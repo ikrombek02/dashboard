@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container_dashboard">
+        <div class="content">
+            <div class="content"><div class="menu-section-bar">
+                <i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i>
+            </div>
+            <section class="sidebar">
+                <div class="sidebar-wrapper">
+                    <div class="user">
+                        <img src="./user.jpg" alt="bg" class="userbg">
+                        <div class="username">
+                            <h1>Ikrombek</h1>
+                        </div>
+                        <div class="user_img">
+                            <img src="./user.jpg" alt="user">
+                        </div>
+                    </div>
+                    <div class="settings">
+                        <ul>
+                            <li>
+                                <a href="#" class="small-sidebar"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                            </li>
+                            <li><a href="./settings.html"><i class="fa-solid fa-gear"></i></a></li>
+                            <li><a href="./delive.html"><i class="fa-solid fa-box"></i></a></li>
+                        </ul>
+                    </div>
+                    <ul class="info">
+                        <li>
+                            <a href="./index.html"><i class="fa-solid fa-user"></i> 
+                            <p class="disapearer">Shaxsiy ma'lumotlar</p></a>
+                        </li>
+                        <li>
+                            <a href="./messages.html"><i class="fa-solid fa-message"></i> 
+                            <p class="disapearer">Xabarlar</p> <span class="">0</span ></a>
+                        </li>
+                        <li>
+                            <a href="./boxs.html"><i class="fa-solid fa-basket-shopping"></i> 
+                                <p class="disapearer">Savatcha</p> <span class="msg">2</span></a>
+                            </li>
+                        <li>
+                            <a href="./delive.html"><i class="fa-solid fa-box"></i> 
+                            <p class="disapearer">Buyurtmalarim</p> <span class="">0</span></a></li>
+                        <li>
+                            <a href="./loving.html"><i class="fa-solid fa-heart"></i>
+                            <p class="disapearer">Sevimlilar</p></a>
+                        </li>
+                        <li>
+                            <a href="#" class="active-link"><i class="fa-solid fa-location-dot"></i> <p class="disapearer">Manzillar</p></a>
+                        </li>
+                    </ul>
+                    <ul class="logout">
+                        <li>
+                            <a href="#" class="logout-btn"><i class="fa-solid fa-right-from-bracket"></i> <p class="disapearer">Chiqish</p></a>
+                        </li>
+                    </ul>
+                    <div class="logout-alert">
+                        <div class="alerted">
+                            <h2>Chiqib ketishni hohlaysizmi?</h2>
+                            <button class="btnY">HA</button>
+                            <button class="btnN">YO'Q</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="info-screen">
+                <h1 class="infos">Manzillar</h1>
+                <div class="locations-sections">
+                    <div class="create-location">
+                        <div class="create">
+                            <p>Manzilni kiritish</p>
+                            <input type="text" class="locations-runtime"><br>
+                            <button class="writeing-btn">Saqlash</button>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <p class="write"></p>
+                            <div class="container">
+                                <div id="location-details">Geolokatsiya orqali aniqlash</div>
+                                <button id="get-location">Aniqlash</button>
+                            </div>
+                        </li>
+                    </ul>
+                        
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+    <!-- more stuff -->
+    <script src="https://kit.fontawesome.com/c4c779c735.js" crossorigin="anonymous"></script>
+</body>
+</html>
